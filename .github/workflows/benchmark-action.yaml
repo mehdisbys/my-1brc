@@ -2,7 +2,7 @@ name: Minimal Benchmark Setup
 on:
   push:
     branches:
-      - master
+      - main
 
 permissions:
   contents: write

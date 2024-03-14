@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710422300157,
+  "lastUpdate": 1710423023925,
   "repoUrl": "https://github.com/mehdisbys/my-1brc",
   "entries": {
     "My 1BRC Benchmar": [
@@ -30,6 +30,36 @@ window.BENCHMARK_DATA = {
             "value": 4024806,
             "unit": "ns/op",
             "extra": "280 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mehdi.souihed@gmail.com",
+            "name": "Mehdi",
+            "username": "mehdisbys"
+          },
+          "committer": {
+            "email": "mehdi.souihed@gmail.com",
+            "name": "Mehdi",
+            "username": "mehdisbys"
+          },
+          "distinct": true,
+          "id": "eb4c8f6d213e07a6758f93bc1db5bbf8407b01e5",
+          "message": "Edit do trivial change to trigger benchmark chart",
+          "timestamp": "2024-03-14T13:29:17Z",
+          "tree_id": "66a0374abdf34630f44287bd8234f1af3cbae652",
+          "url": "https://github.com/mehdisbys/my-1brc/commit/eb4c8f6d213e07a6758f93bc1db5bbf8407b01e5"
+        },
+        "date": 1710423023616,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBRC",
+            "value": 4224802,
+            "unit": "ns/op",
+            "extra": "283 times\n4 procs"
           }
         ]
       }

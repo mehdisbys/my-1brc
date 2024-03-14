@@ -18,6 +18,4 @@ func main() {
 	lines := ReadMeasurements("1mil.txt")
 
 	SplitLine(lines)
-
-	//ProcessAndStore(temps, &SM)
 }

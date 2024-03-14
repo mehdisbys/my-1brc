@@ -30,7 +30,7 @@ jobs:
           name: My 1BRC Benchmar
           tool: 'go'
           output-file-path: output.txt
-          external-data-json-path: ./cache/benchmark-data.json
+          #external-data-json-path: ./cache/benchmark-data.json
           fail-on-alert: true
           auto-push: true
           github-token: ${{ secrets.GITHUB_TOKEN }}

@@ -59,11 +59,11 @@ func SplitLine(lines <-chan string) error {
 
 	wg.Wait()
 
-	fmt.Printf("Ranging over sync.Map\n")
-	SM.Range(func(key, value interface{}) bool {
-		fmt.Printf("%s %+v \n", key, value)
-		return true
-	})
+	// fmt.Printf("Ranging over sync.Map\n")
+	// SM.Range(func(key, value interface{}) bool {
+	// 	fmt.Printf("%s %+v \n", key, value)
+	// 	return true
+	// })
 
 	return nil
 }

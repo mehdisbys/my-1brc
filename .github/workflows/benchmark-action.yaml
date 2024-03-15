@@ -19,15 +19,15 @@ jobs:
           go-version: "stable"
       - name: Run benchmark
         run: go test -bench=. | tee output.txt
-      - name: Download previous benchmark data
-        uses: actions/cache@v4
-        with:
-          path: ./cache
-          key: ${{ runner.os }}-benchmark
+      # - name: Download previous benchmark data
+      #   uses: actions/cache@v4
+      #   with:
+      #     path: ./cache
+      #     key: ${{ runner.os }}-benchmark
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
         with:
-          name: My 1BRC Benchmar
+          name: My 1BRC Benchmark
           tool: 'go'
           output-file-path: output.txt
           #external-data-json-path: ./cache/benchmark-data.json

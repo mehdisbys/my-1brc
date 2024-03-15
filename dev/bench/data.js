@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710423023925,
+  "lastUpdate": 1710493335961,
   "repoUrl": "https://github.com/mehdisbys/my-1brc",
   "entries": {
     "My 1BRC Benchmar": [
@@ -60,6 +60,38 @@ window.BENCHMARK_DATA = {
             "value": 4224802,
             "unit": "ns/op",
             "extra": "283 times\n4 procs"
+          }
+        ]
+      }
+    ],
+    "My 1BRC Benchmark": [
+      {
+        "commit": {
+          "author": {
+            "email": "mehdi.souihed@gmail.com",
+            "name": "Mehdi",
+            "username": "mehdisbys"
+          },
+          "committer": {
+            "email": "mehdi.souihed@gmail.com",
+            "name": "Mehdi",
+            "username": "mehdisbys"
+          },
+          "distinct": true,
+          "id": "856b3eb2802e8bc0c2fe6d577c2e8bd32aaefb04",
+          "message": "Edit workflow output chart",
+          "timestamp": "2024-03-15T09:01:26Z",
+          "tree_id": "c3e4870031e93e1ff80a2ab63938239b3f6eec82",
+          "url": "https://github.com/mehdisbys/my-1brc/commit/856b3eb2802e8bc0c2fe6d577c2e8bd32aaefb04"
+        },
+        "date": 1710493335618,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBRC",
+            "value": 4216567,
+            "unit": "ns/op",
+            "extra": "280 times\n4 procs"
           }
         ]
       }
